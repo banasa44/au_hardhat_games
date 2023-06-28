@@ -1,6 +1,6 @@
 // add the game address here and update the contract name if necessary
-const gameAddr = "0x8A791620dd6260079BF849Dc5567aDC3F2FdC318";
-const contractName = "Game3";
+const gameAddr = "0x5FbDB2315678afecb367f032d93F642f64180aa3";
+const contractName = "Game4";
 
 async function main() {
     // attach to the game
@@ -13,7 +13,7 @@ async function main() {
     // const tx2 = await game.setY(26);
     // await tx2.wait();
 
-    const tx3 = await game.win(45);
+    const tx3 = await game.win(56);
 
     // did you win? Check the transaction receipt!
     // if you did, it will be in both the logs and events array
